@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/jalgos/ukpik-email-templates/issues"
   },
-  "homepage": "https://github.com/jalgos/ukpik-email-templates#readme"
+  "homepage": "https://github.com/jalgos/ukpik-email-templates#readme",
+  "devDependencies": {
+    "parcel": "^1.12.4"
+  }
 }
