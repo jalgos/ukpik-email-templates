@@ -4,7 +4,7 @@ Email templates for [Ukpik](https://ukpik.ai) based on [Responsive HTML email te
 
 ## Preview
 
-<img src="https://raw.githubusercontent.com/jalgos/ukpik-email-templates/master/preview/prevew.jpg" alt="Preview template" width="640">
+<img src="https://raw.githubusercontent.com/jalgos/ukpik-email-templates/master/preview/preview.jpg" alt="Preview template" width="640">
 
 ## Develop
 
