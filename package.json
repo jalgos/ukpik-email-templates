@@ -4,7 +4,10 @@
   "description": "Ukpik email templates",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel *.html",
+    "build": "parcel build *.html --public-url https://raw.githubusercontent.com/jalgos/ukpik-email-templates/master/",
+    "clean": "rm -rf dist",
+    "test": "echo \"No test specified\""
   },
   "repository": {
     "type": "git",
