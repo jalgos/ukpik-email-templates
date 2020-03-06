@@ -79,7 +79,7 @@
     </style>
 
     <!-- MESSAGE SUBJECT -->
-    <title>Verify your email address</title>
+    <title>Registration Verification</title>
   </head>
 
   <!-- BODY -->
@@ -143,7 +143,7 @@
 			color: #F0F0F0;"
                   class="preheader"
                 >
-                  Ukpik Email Verification
+                  Registration Verification
                 </div>
 
                 <!-- LOGO -->
@@ -196,7 +196,7 @@
 			font-family: sans-serif;"
                 class="header"
               >
-                Email Verification
+                Registration Verification
               </td>
             </tr>
 
@@ -258,11 +258,12 @@
 			font-family: sans-serif;"
                 class="paragraph"
               >
-                [#if user.verified] Pro tip, your email has already been
-                verified, but feel free to complete the verification process to
-                verify your verification of your email address. <br /><br />
-                [/#if] To complete your email verification click on the
-                following link.
+                [#if registration.verified] Pro tip, your registration has
+                already been verified, but feel free to complete the
+                verification process to verify your verification of your
+                registration.
+                <br /><br />[/#if] To complete your registration verification
+                click on the following link.
               </td>
             </tr>
 
@@ -278,7 +279,7 @@
                 class="button"
               >
                 <a
-                  href="https://auth.ukpik.ai/email/verify/${verificationId}?tenantId=${user.tenantId}"
+                  href="https://auth.ukpik.ai/registration/verify/${verificationId}?tenantId=${user.tenantId}"
                   target="_blank"
                   style="text-decoration: underline;"
                 >
@@ -300,9 +301,9 @@
                           target="_blank"
                           style="text-decoration: underline;
 					color: #FFFFFF; font-family: sans-serif; font-size: 17px; font-weight: 400; line-height: 120%;"
-                          href="https://auth.ukpik.ai/email/verify/${verificationId}?tenantId=${user.tenantId}"
+                          href="https://auth.ukpik.ai/registration/verify/${verificationId}?tenantId=${user.tenantId}"
                         >
-                          Verify email
+                          Verify
                         </a>
                       </td>
                     </tr>
